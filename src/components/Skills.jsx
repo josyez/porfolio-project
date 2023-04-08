@@ -6,7 +6,7 @@ import GitHub from '../assests/github.png';
 
 const Skills = () => {
     return (
-      <div name='skills' className='w-full h- bg-[#f2d8a8] '>
+      <div name='skills' className='w-full py-40 bg-[#f2d8a8] '>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
@@ -43,4 +43,4 @@ const Skills = () => {
     );
   };
 
-export default Skills
+export default Skills;
