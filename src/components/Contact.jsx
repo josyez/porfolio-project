@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillFileTextFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -50,9 +50,9 @@ const Contact = () => {
 
           {/* placeholder */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500  bg-[#5282b5] ">
-            <a className="flex flex-col items-center justify-center w-full mx-auto" href="" target="_blank" rel="noopener noreferrer">
-              <BsFillPersonLinesFill size={80} />
-              <span className="text-lg font-bold">GitHub </span>
+            <a className="flex flex-col items-center justify-center" href="https://docs.google.com/document/d/1w4She8o1jkrTXLC1tKKEDL44nXoTIE6FhC-W5smi27w/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <BsFillFileTextFill size={70} />
+              <span className="text-lg font-bold">Resume </span>
             </a>
           </div>
         </div>

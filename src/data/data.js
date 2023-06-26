@@ -1,5 +1,6 @@
 import WeatherImg from '../assests/projects/weather-api.png';
-import PetsImg from '../assests/projects/pets-blog.png';
+import PawPets from '../assests/projects/pawpets.png'
+import TechNiche from '../assests/projects/techniche.png'
 
 export const data=[
     {
@@ -9,12 +10,21 @@ export const data=[
         github:"https://github.com/josyez/react-api-project",
         // live:"",
     },
+
     {
         id:2,
         // name:"",
-        image:PetsImg,
+        image:PawPets,
         github:"https://github.com/josyez/TKH-Phase2-Project",
-        // live:"",
+        live:"https://pawpets.vercel.app/",
+    },
+
+    {
+        id:3,
+        // name:"",
+        image:TechNiche,
+        github:"https://github.com/josyez/digitaldish.git",
+        live:"https://digitaldish.vercel.app/",
     },
 
 ]
